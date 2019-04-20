@@ -1,0 +1,188 @@
+@font-face{
+    font-family: "googlesans-bold";
+    src: url('../fonts/Google-Sans-Font/GoogleSans-Medium.ttf');
+}
+
+@font-face{
+    font-family: "googlesans-regular";
+    src: url('../fonts/Google-Sans-Font/GoogleSans-Regular.ttf');
+}
+
+body{
+    font-family:googlesans-regular,Arial,sans-serif; 
+    background-color: rgb(170, 170, 170);
+}
+
+#banner{
+    width:400px;
+    margin: 0 auto;
+}
+
+.navbar-fixed { z-index: 999; }
+
+header, #main, .main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, #main, .main, footer {
+      padding-left: 0;
+    }
+  }
+
+header .nav-wrapper img{
+    padding-top:7px;
+    width: 80px;
+    float:left;
+}
+
+.brand-logo{
+    padding-left:50%;
+}
+
+header p{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 20px; 
+    font-family: googlesans-bold; 
+}
+
+.grupos{
+    background-color: white;
+}
+
+nav{
+    background-color: #004A87 !important;
+    height: 90px;
+}
+.blue{
+    background-color: #004A87 !important;
+}
+.nav-content{
+    background-color: #004A87 !important;
+}
+
+
+nav li{
+    line-height: 90px;
+}
+
+#tit{
+    line-height: 58px;
+    padding-right: 40px;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+
+
+
+.sticy-nav{
+    position:fixed;
+    top:1;
+}
+
+
+.row{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+h6{
+    font-size: 17px;
+    color:white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.estudiantes .card{
+    height: 250px;
+}
+
+.card img{
+    padding: 10px;
+}
+
+.azul{
+    background-color: #004A87 !important;
+}
+
+#info{
+    position: absolute;
+    width: 380px;
+    margin-left: 68%;
+    padding: 10px 30px;
+    color:white;
+    height: 250px;
+}
+
+#info3{
+    padding: 10px 30px;
+    color:white;
+    height: 250px;
+}
+
+#info1{
+    padding: 10px 30px;
+    color:white;
+}
+
+#infoProfe{
+    
+    position: absolute;
+    margin-left: 68%;
+    padding: 10px 30px;
+    color:#004A87;
+    height: 160px;
+}
+
+#info2{
+    width:380px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 68%;
+    padding: 10px 30px;
+    color:black;
+    height: 280px;
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+#cancelar{
+    margin-bottom: 70px;
+}
+
+.zoom { 
+    z-index: 5;
+    -webkit-transition: all .2s ease-out; 
+    -moz-transition: all .2s ease-out; 
+    -o-transition: all .2s ease-out; 
+    transition: all .2s ease-out; 
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+    
+.zoom:hover { 
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+        M11=2, M12=-0, M21=0, M22=2);
+}
+

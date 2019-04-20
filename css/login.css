@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "googlesans-bold";
+    src: url('../fonts/Google-Sans-Font/GoogleSans-Medium.ttf');
+}
+
+@font-face{
+    font-family: "googlesans-regular";
+    src: url('../fonts/Google-Sans-Font/GoogleSans-Regular.ttf');
+}
+body {
+    background-image: url("../img/Universidad-del-Magdalena-1.jpg");
+    height:80vh;
+    background-repeat:  repeat; 
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+}
+.div-form{
+    margin: 10% auto 0% auto;
+    width: 50%;
+    background-color: rgba(255,255,255,0.8)
+}
+#errorlog{
+    visibility: hidden; 
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    .div-form{
+        width: 90%;
+    }
+}
